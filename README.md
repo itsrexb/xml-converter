@@ -56,7 +56,7 @@ $arrayConverted = (new FromArray())
 
 ### Example with all features
 ```php
-$array = [
+$arrayToConvert = [
     'First_User' => [
         '_attributes' => [
             'attr1' => 'value'
