@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace Dmb\XmlConverter\Tests;
 
 use Dmb\XmlConverter\FromXml;
-use Gaarf\XmlToPhp\XmlParsingExcpetion;
+use Dmb\XmlConverter\XmlParsingExcpetion;
 
 class FromXmlTest extends TestCase
 {
