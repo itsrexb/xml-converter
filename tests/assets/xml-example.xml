@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<envelope>
+    <header>
+        <version port="0000" host="host">1.0.0</version>
+        <timestamp>20230116170354</timestamp>
+    </header>
+    <response type="type" product="item">
+        <search number="123" time="0.00" />
+        <nights number="11" />
+        <checkin date="2023-05-15" />
+        <checkout date="2023-05-26" />
+        <hotels total="1" >
+            <hotel code="123456"  name="NAME" stars="2" location="00" address="Address" promo="false" city="city" >
+                <agreement id="agreement-id" available="true" room_basis="RB" meal_basis="C" ctype="00" c_type="00" room_type="Quadruple Classic" is_dynamic="false" currency="CHF" deadline="2023-05-11" total="8494.75" total_gross="8494.75" original_total="8494.75" special="false"  >
+                    <deadline date="2023-05-11 12:00:00" value="2023-05-11 12:00:00"/>
+                    <policies>
+                        <policy from="2023-05-11 12:00:00" percentage="9.09" />
+                    </policies>
+                    <deadline_remarks />
+                    <remarks>
+                        <remark text="Exclusive discount"/>
+                        <remark text="BED AND BREAKFAST"/>
+                    </remarks>
+                    <room type="dbl" required="1" occupancy="2" >
+                        <price from="2023-05-15" to="2023-05-16" >
+                            <roomprice nett="772.25" gross="772.25"/>
+                        </price>
+                    </room>
+                </agreement>
+                <agreement id="agreement-id" available="true" room_basis="RB" meal_basis="C" ctype="00" c_type="00" room_type="Double Classic" is_dynamic="false" currency="CHF" deadline="2023-05-11" total="8494.75" total_gross="8494.75" original_total="8494.75" special="false"  >
+                    <deadline date="2023-05-11 12:00:00" value="2023-05-11 12:00:00"/>
+                    <policies>
+                        <policy from="2023-05-11 12:00:00" percentage="9.09" />
+                    </policies>
+                    <deadline_remarks />
+                    <remarks>
+                        <remark text="Exclusive discount"/>
+                        <remark text="BED AND BREAKFAST"/>
+                    </remarks>
+                    <room type="dbl" required="1" occupancy="2" >
+                        <price from="2023-05-15" to="2023-05-16" >
+                            <roomprice nett="772.25" gross="772.25"/>
+                        </price>
+                    </room>
+                </agreement>
+            </hotel>
+        </hotels>
+    </response>
+</envelope>

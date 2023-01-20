@@ -1,0 +1,49 @@
+{
+    "name": "dmb/xml-converter",
+    "description": "A package that allows you to easily convert your XML string into array format or generate an XML string from an array.",
+    "keywords": [
+        "dmb",
+        "xml",
+        "converter",
+        "array",
+        "php"
+    ],
+    "homepage": "https://github.com/davidemariabusi/xml-converter",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Davide Maria Busi",
+            "email": "davidemaria.busi@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "gaarf/xml-to-php-array": "^1.0",
+        "spatie/array-to-xml": "2.17.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0",
+        "nunomaduro/larastan": "^1.0",
+        "orchestra/testbench": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dmb\\XmlConverter\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Dmb\\XmlConverter\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dmb\\XmlConverter\\XmlConverterServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
