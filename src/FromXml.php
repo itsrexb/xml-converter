@@ -40,7 +40,7 @@ class FromXml
 
         $parsed = simplexml_load_string($xmlToConvert);
 
-        if (!$parsed) {
+        if ($parsed === false) {
             throw new XmlParsingExcpetion();
         }
     }
